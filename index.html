@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Shopping List</title>
+</head>
+<body>
+    <h1>Interactive Shopping List</h1>
+    <!-- Form for adding new items to the list -->
+    <div class="listform">
+        <form id="shopping-form">
+            <input type="text" id="product" placeholder="Item name" required>
+            <input type="text" id="quantity" placeholder="Quantity" required>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    
+    <!-- Container where the shopping list items will appear -->
+    <section class="container"></section>
+
+    <!-- Button to clear the list -->
+    <section class="btn-sections hidden">
+        <button class="clearlist">Clear List</button>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

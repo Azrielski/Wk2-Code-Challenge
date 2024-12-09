@@ -1,0 +1,91 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: beige;
+}
+/*Styling for the button */
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+/*button hover styling */
+button:hover{
+    background-color: burlywood;
+}
+
+/* Styling for the form container */
+.listform {
+    margin-bottom: 20px;
+}
+
+/* Styling for the shopping list container */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for each list item */
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the purchased items */
+.purchased {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Button for marking items as purchased */
+.purchase-btn {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.purchase-btn:hover {
+    background-color: #45a049;
+}
+
+/* Hidden button for clearing the list */
+.hidden {
+    display: none;
+}
+
+/* Button to clear the list */
+.clearlist {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clearlist:hover {
+    background-color: #e53935;
+}
