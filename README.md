@@ -109,4 +109,4 @@ Add filters (e.g., show only purchased or unpurchased items).
 This project is open source and free to use.
 
 ### Author
-Created by Victor Azriel Ngae.
+Created by Victor Azriel Ngae
